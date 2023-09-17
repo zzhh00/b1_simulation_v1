@@ -1,0 +1,6 @@
+<library path="nav2_navfn_planner"> <!-- 编译生成的插件库名称-->
+	<!-- 				  <package>/<class>             	   <namespace>::<插件类class>                 <namespace>::<基类class>-->
+	<class name="nav2_navfn_planner/NavfnPlanner" type="nav2_navfn_planner::NavfnPlanner" base_class_type="nav2_core::GlobalPlanner"> <!-- type 和 base_class_type要在cpp文件末尾添加 PLUGINLIB_EXPORT_CLASS(nav2_navfn_planner::NavfnPlanner, nav2_core::GlobalPlanner) -->
+	  <description></description>
+	</class>
+</library>

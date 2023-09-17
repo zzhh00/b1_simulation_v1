@@ -1,0 +1,6 @@
+[
+    {"pose_name": "tote_picking_zone", "wait_time": 3},
+    {"pose_name": "box_picking_zone", "wait_time": 2},
+    {"pose_name": "storage_zone", "wait_time": 1},
+    {"pose_name": "dropping_zone", "wait_time": 4}
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "pose_name": "storage_zone",
+        "position": {
+            "x": -3.5,
+            "y":  0.0,
+            "z":  0.01
+        },
+        "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        }
+    },
+    {
+        "pose_name": "box_picking_zone",
+        "position": {
+            "x": -3.5,
+            "y": -6.0,
+            "z":  0.01
+        },
+        "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        }
+    },
+    {
+        "pose_name": "tote_picking_zone",
+        "position": {
+            "x":  1.0,
+            "y": -6.0,
+            "z":  0.01
+        },
+        "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        }
+    },
+    {
+        "pose_name": "dropping_zone",
+        "position": {
+            "x": 0.5,
+            "y": 6.0,
+            "z": 0.01
+        },
+        "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        }
+    }
+]
