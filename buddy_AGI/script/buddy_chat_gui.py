@@ -24,9 +24,11 @@ from datetime import datetime
 from buddy_navigation import RobotNavigation
 import json
 import os
+
 openai_api_key = os.getenv("OPENAI_API_KEY")
 llm=ChatOpenAI(openai_api_key=openai_api_key, model_name='gpt-4',temperature=0 )
 memory = ConversationSummaryBufferMemory(llm=llm, max_token_limit=1000)
+
 robot_navigation = RobotNavigation()
             
 class RecordThread(QThread):
